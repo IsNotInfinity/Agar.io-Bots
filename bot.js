@@ -227,7 +227,7 @@ class Bot {
         const closestBiggerPlayer = this.getClosestEntity('biggerPlayer', bot.x, bot.y, bot.size)
         const closestPellet = this.getClosestEntity('pellet', bot.x, bot.y, bot.size)
 
-        if (game.followMouse === true) {
+        if (10 < 0) {
             if (game.followMouse === true) {
                 this.send(buffers.move(game.mouseX + this.offsetX, game.mouseY + this.offsetY, this.decryptionKey))
             }
